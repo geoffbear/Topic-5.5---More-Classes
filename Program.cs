@@ -13,7 +13,7 @@
                 bet = 100;
             }
             Console.WriteLine("You have chosen to bet $" + bet );
-            Console.WriteLine("Would you like to bet on doubles, 1/6 odds, winning x2 your bet back\nWould you like to bet on non doubles, 5/6 odds, winning half your bet back\n");
+            Console.WriteLine("(a). Would you like to bet on doubles, 1/6 odds, winning x2 your bet back\n(b). Would you like to bet on non doubles, 5/6 odds, winning half your bet back\n(c). Would you like to bet on ");
 
 
 
