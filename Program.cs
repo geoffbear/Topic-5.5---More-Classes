@@ -5,20 +5,31 @@
         static void Main(string[] args)
         {
             int balance = 100;
-            int bet;
             Console.WriteLine("You have $100, how much would you like to bet?");
-            bet = Convert.ToInt32(Console.ReadLine());
+            int bet = Convert.ToInt32(Console.ReadLine());
             if (bet > 100)
             {
                 bet = 100;
             }
             Console.WriteLine("You have chosen to bet $" + bet );
-            Console.WriteLine("(a). Would you like to bet on doubles, 1/6 odds, winning x2 your bet back\n(b). Would you like to bet on non doubles, 5/6 odds, winning half your bet back\n(c). Would you like to bet on ");
+            Console.WriteLine("(a). Would you like to bet on doubles, 1/6 odds, winning x2 your bet back.\n(b). Would you like to bet on non doubles, 5/6 odds, winning half your bet back.\n(c). Would you like to bet on an even sum, 1/2 odds, winning your bet back.\n(d). Would you like to bet on an odd sum, 1/2 odds, winning your bet back.");
+            string choice = Console.ReadLine();
+            if (choice == "a" || choice == "A")
+            {
 
+            }
+            if (choice == "b" || choice == "B")
+            {
 
+            }
+            if (choice == "c" || choice == "C")
+            {
 
+            }
+            if (choice == "d" || choice == "D")
+            {
 
-
+            }
 
 
 
