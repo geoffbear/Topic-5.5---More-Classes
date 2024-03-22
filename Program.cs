@@ -1,4 +1,6 @@
-﻿namespace Topic_5._5___More_Classes
+﻿using System.Runtime.CompilerServices;
+
+namespace Topic_5._5___More_Classes
 {
     internal class Program
     {
@@ -16,38 +18,66 @@
             string choice = Console.ReadLine();
             if (choice == "a" || choice == "A")
             {
+                Die die1;
+                Die die2;
+                die1 = new Die();
+                die2 = new Die();
+                die1.RollDie();
+                Console.WriteLine(die1);
+                die1.DrawRoll();
+                die2.RollDie();
+                Console.WriteLine(die2);
+                die2.DrawRoll();
+                Console.WriteLine();
 
+                if (die1 == die2)
+                {
+                    Console.WriteLine("You win!");
+
+                }
             }
             if (choice == "b" || choice == "B")
             {
-
+                Die die1;
+                Die die2;
+                die1 = new Die();
+                die2 = new Die();
+                die1.RollDie();
+                Console.WriteLine(die1);
+                die1.DrawRoll();
+                die2.RollDie();
+                Console.WriteLine(die2);
+                die2.DrawRoll();
+                Console.WriteLine();
             }
             if (choice == "c" || choice == "C")
             {
-
+                Die die1;
+                Die die2;
+                die1 = new Die();
+                die2 = new Die();
+                die1.RollDie();
+                Console.WriteLine(die1);
+                die1.DrawRoll();
+                die2.RollDie();
+                Console.WriteLine(die2);
+                die2.DrawRoll();
+                Console.WriteLine(); 
             }
             if (choice == "d" || choice == "D")
             {
-
+                Die die1;
+                Die die2;
+                die1 = new Die();
+                die2 = new Die();
+                die1.RollDie();
+                Console.WriteLine(die1);
+                die1.DrawRoll();
+                die2.RollDie();
+                Console.WriteLine(die2);
+                die2.DrawRoll();
+                Console.WriteLine();
             }
-
-
-
-
-
-
-
-            Die die1;
-            Die die2;
-            die1 = new Die();
-            die2 = new Die();
-            die1.RollDie();
-            Console.WriteLine(die1);
-            die1.DrawRoll();
-            die2.RollDie();
-            Console.WriteLine(die2);
-            die2.DrawRoll();
-            Console.ReadLine();
         }
     }
 }
